@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Perhitungan Nilai</title>
+<style type="text/css">
+  .tombol{
+   background-color: skyblue;
+  }
+  .tabel{
+   background-color: lightblue;
+   margin: 0 auto;
+   padding: 10px;
+   align="center"
+  }
+ </style>
+</head>
+   <SCRIPT language="JavaScript">
+function test () {
+var val1=document.kirim.T1.value
+if(val1>=0&&40)
+   document.kirim.T2.value="E"
+if(val1>41&&55)
+   document.kirim.T2.value="D"
+if(val1>56&&60)
+   document.kirim.T2.value="C"
+if(val1>61&&65)
+   document.kirim.T2.value="BC"
+if(val1>66&&70)
+   document.kirim.T2.value="B"
+if(val1>71&&80)
+   document.kirim.T2.value="AB"
+if(val1>81&&100)
+   document.kirim.T2.value="A"
+}
+
+   </SCRIPT>
+<body>
+<form method="POST" name="kirim">
+ <table style="background-color: " class="tabel">
+<tr><td>Nilai anda</td><td>:</td><td><input type="number" name="T1" size="20"></td>
+</tr>
+<tr><td>Anda Mendapatkan Predikat</td><td>:</td><td><input type="text" name="T2" size="20"></td>
+</tr>
+<tr><td colspan="4" align="center">
+</p>
+<p><input type="button" value="Hasilnya" name="B1" onclick=test()>
+</p>
+</td>
+   </tr>
+</form>
+</body>
+</html>
