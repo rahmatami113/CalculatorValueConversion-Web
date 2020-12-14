@@ -5,7 +5,6 @@
 <ul>
   <li> <script> untuk membuat script di sisi klien </li>
   <li> Language untuk memberitahukan bahwa Bahasa script yang dipergunakan adalah Javascript </li>
-<li> !--....//--  untuk mencegah apabila ada browser yang tidak support tidak akan menampilkan kode Javascript tersebut sebagai kesalahan/error. </li>
 <li> Var untuk membuat sebuah variable. </li>
 <li> Function memberitahu Javascript bahwa akan membuat fungsi. </li>
 <li> Tag title untuk membuat judul dari sebuah halaman. </li>
